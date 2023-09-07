@@ -3,7 +3,7 @@ import { PiMagnifyingGlassThin } from 'react-icons/pi/'
 
 function NavbarSearch() {
   return (
-    <div className='w-full max-w-[#23.375rem] flex items-center justify-center'>
+    <div className='w-full max-w-[#23.375rem] mt-[2.56rem] flex items-center justify-center'>
 
         <div className='absolute flex items-center justify-center w-[23.375rem] h-[2.5rem] rounded-sm bg-[#ffffff33] '>
           <PiMagnifyingGlassThin className='text-white w-[0.97656rem] h-[0.97656rem]  cursor-pointer'/>
@@ -11,7 +11,7 @@ function NavbarSearch() {
         type="text"
         
         placeholder='Pesquisar no blog' 
-        className='px-6 py-2 bg-transparent outline-none'
+        className='px-6 py-2 bg-transparent outline-none placeholder:text-white'
         />
 
         </div>
